@@ -11,3 +11,4 @@ export const INITIAL_REMAINING_TIME: Counter = {
 	seconds: 0
 };
 export const COUNTER_KEYS: CounterKeys[] = ["days", "hours", "minutes", "seconds"];
+export const DEADLINE = "2024-01-01T00:00:00"; // Marks the end of New Year's Eve 2023

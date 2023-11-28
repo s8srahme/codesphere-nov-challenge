@@ -1,5 +1,6 @@
 import {
 	DAYS_TO_MS,
+	DEADLINE,
 	HOURS_TO_MS,
 	INITIAL_REMAINING_TIME,
 	MINUTES_TO_MS,
@@ -9,14 +10,14 @@ import { Counter } from "./CountdownTimer.types";
 
 export const isTimeLeft = (remainingTime: Counter): boolean => {
 	const { seconds, minutes, hours, days } = remainingTime;
-	return seconds >= 0 && minutes >= 0 && hours >= 0 && days >= 0;
+	return seconds > 0 || minutes > 0 || hours > 0 || days > 0;
 };
 
 // Prepend zero to single digit whole numbers
 export const prependZeroToNumber = (num: number): string => (num < 10 && num > -1 ? "0" : "") + num;
 
 export const calculateRemainingTime = (): Counter => {
-	const deadlineTime = new Date("2024-01-01T00:00:00"); // Marks the end New Year's Eve 2023
+	const deadlineTime = new Date(DEADLINE);
 	const currentTime = new Date();
 
 	const timeDifferenceInMs = deadlineTime.getTime() - currentTime.getTime();
