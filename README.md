@@ -1,3 +1,5 @@
+![Countdown timer in dark mode](/countdown-timer-dark-mode.png)
+
 # Getting Started
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It features a simple countdown timer made with MUI.
