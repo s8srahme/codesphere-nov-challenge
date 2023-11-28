@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It features a simple countdown timer made with MUI.
+
+The timer tracks time remaining until the beginning of the year 2024. You can also switch between dark and light mode if you want.
 
 ## Available Scripts
 
