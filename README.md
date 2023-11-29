@@ -1,8 +1,11 @@
 ![Countdown timer in dark mode](/countdown-timer-dark-mode.png)
 
-# Countdown Timer
+# ⏰ Countdown Timer
 
-A simple countdown timer made with React and TypeScript. The timer tracks time remaining until the beginning of the year 2024. You can also switch between dark and light mode if you want.
+A simple countdown timer made with React and TypeScript. It allows you to:
+
+- Track time remaining until the beginning of the year 2024
+- Switch between dark and light mode
 
 ## 🧐 What is inside?
 
@@ -11,8 +14,42 @@ This project mainly uses:
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [MUI](https://mui.com/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+
+## 🏡 Project Structure
+
+### src/components
+
+For each folder inside `components`, there is a file for the component itself, styles and tests. Optionally, you could initiate files for helpers, constants and types if needed. To me, this makes a lot more sense as everything related is grouped together and easy to find.
+
+```
+Component.tsx - The actual React component
+Component.styles.ts - Styles for the component
+Component.test.tsx - Tests for the component
+Component.types.ts - Types being used within the component
+Component.helper.ts - Helpers for the component
+```
+
+### src/providers
+
+Each file inside `providers` give you a React `Context` and `Provider` for passing data that can be used across children components within your application.
+
+These types of data could include:
+
+- Theme data (like dark or light mode)
+- User data (currently authenticated user)
+- etc.
+
+### App.tsx
+
+`App.tsx` has the root component of the application and it wraps every view and component that are handled with hierarchy in React.
+
+### Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).\
+To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 📝 Available Scripts
 
@@ -55,7 +92,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## 🚀 Deployment
 
-The application has been deployed on Codesphere. Open [https://47986-3000.2.codesphere.com](https://47986-3000.2.codesphere.com) to see a live demo.
+The application has been deployed on [Codesphere](https://codesphere.com). Open [workspace-URL](https://47986-3000.2.codesphere.com) to see a live demo.
+
+You can learn about creating and deploying app in Codesphere [documentation](https://docs.codesphere.com/getting-started/getting-started-with-codesphere).
 
 ## 📄 License
 
