@@ -11,7 +11,7 @@ export const SnowfallEffect = () => {
 		const elements: JSX.Element[] = [];
 		for (let i = num; i > 0; i -= 1) {
 			const snow = (
-				<Box sx={styles.snow} key={i.toString()} style={getRandomStyles()}>
+				<Box sx={{ ...styles.snow, ...getRandomStyles() }} key={i.toString()}>
 					<Typography sx={{ fontSize: "inherit" }}>{SNOW_CONTENT[getRandomNumber(3)]}</Typography>
 				</Box>
 			);

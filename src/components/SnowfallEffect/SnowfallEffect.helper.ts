@@ -1,5 +1,6 @@
-export const getRandomNumber = (num: number) => {
-	return Math.floor(Math.random() * num);
+// Return a random integer between 0 (inclusive) and max (exclusive)
+export const getRandomNumber = (max: number) => {
+	return Math.floor(Math.random() * max);
 };
 
 export const getRandomStyles = () => {
