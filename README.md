@@ -1,4 +1,4 @@
-![Countdown timer in dark mode](/countdown-timer-dark-mode.png)
+![Countdown Timer in Dark Mode](/src/assets/images/github-banner-dark-mode-1280x720.png)
 
 # ⏰ Countdown Timer
 
@@ -7,18 +7,22 @@ A simple countdown timer made with React and TypeScript. It allows you to:
 - Track time remaining until the beginning of the year 2024
 - Switch between dark and light mode
 
-## 🧐 What is inside?
+## 🔋 Tech Stack
 
-This project mainly uses:
+The set of tools and technologies used to develop this application includes:
 
-- [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [MUI](https://mui.com/)
+- [React](https://react.dev/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [MUI](https://mui.com/)
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 
-## 🏡 Project Structure
+## 🌐 Project Structure
+
+### src/assets
+
+`assets` folder contains static files such as images, icons, etc. that will be used in your application.
 
 ### src/components
 
@@ -34,13 +38,14 @@ Component.helper.ts - Helpers for the component
 
 ### src/providers
 
-Each file inside `providers` give you a React `Context` and `Provider` for passing data that can be used across children components within your application.
+Each file inside `providers` give you a React `Context` and `Provider` for passing data that can be used across children components within your application. These types of data could include:
 
-These types of data could include:
-
-- Theme data (like dark or light mode)
+```
+- Theme data (e.g. dark or light mode)
 - User data (currently authenticated user)
-- etc.
+...
+...
+```
 
 ### App.tsx
 
@@ -51,7 +56,7 @@ These types of data could include:
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).\
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-## 📝 Available Scripts
+## 📄 Available Scripts
 
 In the project directory, you can run:
 
@@ -96,6 +101,6 @@ The application has been deployed on [Codesphere](https://codesphere.com). Open 
 
 You can learn about creating and deploying app in Codesphere [documentation](https://docs.codesphere.com/getting-started/getting-started-with-codesphere).
 
-## 📄 License
+## 🚨 License
 
-This project is licensed under the MIT license, Copyright (c) 2023 Sabbir Ahmed. For more information see `LICENSE.md`.
+This project is licensed under the MIT license, Copyright (c) 2023 Sabbir Ahmed. For more information see [LICENSE](/LICENSE).
