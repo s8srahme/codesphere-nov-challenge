@@ -2,10 +2,11 @@
 
 # ⏰ Countdown Timer
 
-A simple countdown timer made with React and TypeScript. It allows you to:
+Countdown timer is a dead simple web application that allows you to:
 
 - Track time remaining until the beginning of the year 2024
 - Switch between dark and light mode
+- Watch cool snowflakes swirling around
 
 ## 🔋 Tech Stack
 
