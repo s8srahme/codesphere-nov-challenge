@@ -1,8 +1,8 @@
 ![Countdown Timer in Dark Mode](/src/assets/images/github-banner-dark-mode-1280x720.png)
 
-# ⏰ Countdown Timer
+# ⏰ New Year Countdown Timer
 
-> Countdown timer is a dead simple web application that allows you to:
+> New Year Countdown Timer is a dead simple web application that allows you to:
 
 - Track time remaining until the beginning of the year 2024
 - Switch between dark and light mode
